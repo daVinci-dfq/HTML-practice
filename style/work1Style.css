@@ -1,0 +1,21 @@
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+}
+
+.list a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: rgba(157, 148, 183, 0.74);
+    width: 200px;
+    padding: 20px 0;
+    color: #4c4c4c;
+}
+
+.list a:hover {
+    background-color: rgb(74, 63, 110);
+    color: #f2f2f2;
+}

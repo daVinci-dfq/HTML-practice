@@ -1,21 +1,83 @@
-.list {
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    padding: 0 7%;
+}
+
+.guide {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: sticky;
+    height: 100px;
+    padding-top: 80px;
+    overflow: hidden;
 }
 
-.list a {
+.guideElement {
+    margin: 0 auto;
+    background-color: rgba(157, 148, 183, 0.74);
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 5px rgba(0, 0, 0, .2);
+    letter-spacing: 1px;
+}
+
+.guideElement a {
+    display: inline-block;
+    text-decoration: none;
+    width: 19.54%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(76, 76, 76);
+    transition: .5s;
+}
+
+.guideElement a:hover {
+    background-color: rgb(74, 63, 110);
+    color: #f2f2f2;
+}
+
+.guideColumn {
+    list-style-type: none;
+    margin-left: auto;
+    padding: 0;
+    width: 17%;
+    border-radius: 15px;
+    border: 2px solid #727070;
+    position: sticky;
+    background-color: rgba(157, 148, 183, 0.74);
+}
+
+.guideColumn a {
     text-decoration: none;
     display: block;
     text-align: center;
-    background-color: rgba(157, 148, 183, 0.74);
-    width: 200px;
+    letter-spacing: 1px;
     padding: 20px 0;
-    color: #4c4c4c;
+    color: #3b3b3b;
+    border-radius: 15px;
+    border-bottom: 2px solid #727070;
+    transition: .3s;
 }
 
-.list a:hover {
+.lastColumn a {
+    border-bottom: 0;
+}
+
+.guideColumn a:hover {
     background-color: rgb(74, 63, 110);
     color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    color: #4c4c4c;
+    font-size: 50px;
+    letter-spacing: 15px;
 }

@@ -1,18 +1,21 @@
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: rgb(74, 63, 110);
+    background-color: rgb(225, 231, 252);
+    background-image: url("../img/background1.jpg");
+    background-position: center center;
+    background-size: cover;
 }
 
 .field {
-    width: 90%;
+    width: 98%;
     height: calc(100% - 50px);
     margin: 0 auto;
-    justify-content: center;
-    right: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav {
@@ -24,7 +27,7 @@ body {
 
 .element {
     margin: 0 auto;
-    background-color: rgba(157, 148, 183, 0.74);
+    background-color: rgba(164, 180, 154, 0.74);
     width: 70%;
     height: 50px;
     border-radius: 10px;
@@ -35,7 +38,7 @@ body {
 .element a {
     display: inline-block;
     text-decoration: none;
-    width: 19.557%;
+    width: 19.601%;
     height: 50px;
     line-height: 50px;
     border-radius: 10px;
@@ -45,23 +48,21 @@ body {
 }
 
 .element a:hover {
-    background-color: rgb(74, 63, 110);
+    background-color: rgb(107, 134, 102);
     color: #f2f2f2;
 }
 
 .guide {
+    height: 100%;
     list-style-type: none;
-    margin-left: auto;
-    padding: 0;
     width: 17%;
     border-radius: 15px;
     border: 2px solid #727070;
     position: sticky;
     top: 20%;
     right: 5%;
-    background-color: rgba(157, 148, 183, 0.74);
+    background-color: rgba(137, 159, 156, 0.74);
     box-shadow: 7px 7px 3px rgba(0, 0, 0, .2);
-    opacity: 1;
 }
 
 .guide a {
@@ -82,32 +83,35 @@ body {
     border-bottom: 0;
 }
 
-.guideColumn a:hover {
-    background-color: rgb(74, 63, 110);
+.guide a:hover {
+    background-color: rgb(82, 108, 102);
     color: #f2f2f2;
 }
 
+.main {
+    height: 100%;
+    width: 65%;
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, 0.34);
+    border-radius: 10px;
+    box-shadow: 7px 7px 3px rgba(0, 0, 0, .2);
+
+    overflow: auto;
+}
+
 h1 {
+    padding-top: 4%;
     text-align: center;
     color: #4c4c4c;
     font-size: 50px;
     letter-spacing: 15px;
 }
 
-.mainText {
-    overflow: auto;
+.text {
+    width: 80%;
+    padding: 4%;
+    margin: auto;
 }
-
-/*.field:after {*/
-/*    background-color: #e8e8e8;*/
-/*    content: "";*/
-/*    width: 80%;*/
-/*    height: 100%;*/
-/*    position: absolute;*/
-/*    right: 10%;*/
-/*    z-index: -1;*/
-/*    top: 0;*/
-/*}*/
 
 .down {
     text-align: center;
@@ -119,13 +123,13 @@ h1 {
 }
 .info {
     font-size: 15px;
-    color: #4c4c4c;
+    color: rgb(255, 255, 255);
     line-height: 30px;
     letter-spacing:4px;
 }
 .mail {
     font-size: 15px;
-    color: #a0a2a0;
+    color: #c8c9c8;
     line-height: 30px;
     letter-spacing:1px;
 }

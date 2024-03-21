@@ -15,7 +15,7 @@ body {
 }
 
 .top_info:after {
-    background-color: rgb(74, 63, 110);
+    background-color: rgb(97, 86, 134);
     content: '';
     width: 130%;
     height: 650px;

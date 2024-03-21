@@ -59,7 +59,7 @@ body {
     border-radius: 15px;
     border: 2px solid #727070;
     position: sticky;
-    top: 20%;
+    top: 40%;
     right: 5%;
     background-color: rgba(137, 159, 156, 0.74);
     box-shadow: 7px 7px 3px rgba(0, 0, 0, .2);
@@ -95,7 +95,6 @@ body {
     background-color: rgba(255, 255, 255, 0.34);
     border-radius: 10px;
     box-shadow: 7px 7px 3px rgba(0, 0, 0, .2);
-
     overflow: auto;
 }
 
@@ -108,9 +107,12 @@ h1 {
 }
 
 .text {
-    width: 80%;
+    width: 73%;
     padding: 4%;
     margin: auto;
+    font-size: 17px;
+    font-family: "Microsoft Yahei", fantasy;
+    line-height: 40px;
 }
 
 .down {

@@ -106,13 +106,34 @@ h1 {
     letter-spacing: 15px;
 }
 
+h2 {
+    color: #4c4c4c;
+    padding: 4%;
+    letter-spacing: 3px;
+}
+
+h3 {
+    padding: 1%;
+    color: #4c4c4c;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
 .text {
     width: 73%;
     padding: 4%;
     margin: auto;
     font-size: 17px;
     font-family: "Microsoft Yahei", fantasy;
-    line-height: 40px;
+    line-height: 35px;
+}
+
+.formula {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
 }
 
 .down {
